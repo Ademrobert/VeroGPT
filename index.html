@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="title" property="og:title" content="VeroGPT">
+
+    <meta name="description"
+        content="Olen VeroGPT, tekoälyasiantuntija veroasioissa. Autan vastaamaan verotukseen liittyviin kysymyksiin. Käytän hyväkseni laajaa tietokantaani verojen käsittelystä. Adem Ottoman">
+    <meta name="keywords" content="VeroGPT,tekoälyasiantuntija,tekoäly,vero,vero.fi,Adem Ottoman">
+
+    <title>VeroGPT</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,500,600,300&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="loading"></div>
+    <header>
+        <div class="content show-on-scroll">
+            <a class="logo" href="index.html">VeroGPT<span>™</span></a>
+        </div>
+        <div class="devider show-on-scroll"></div>
+    </header>
+
+    <section class="homepage">
+        <div class="content show-on-scroll">
+            <h4>VeroGPT, tekoälyasiantuntija veroasioissa.</h4>
+            <h1>Autamme <span style="color: #00a100;">yrityksiä</span> ja <span
+                    style="color: #00a100;">yksityishenkilöitä</span> veroasioissa hyödyntäen tekoälyä.</h1>
+            <a class="btn" href="contact.html">
+                <li>Tulossa Pian!</li>
+            </a>
+        </div>
+        <div class="links show-on-scroll">
+            <button id="team-btn" onclick="toggle_visibility()">
+                <li>Tiimimme</li>
+            </button>
+        </div>
+
+        <div class="team" id="team">
+            <div class="team-page" id="team-page">
+                <div class="content">
+                    <div class="box">
+                        <h2>Tiimimme</h2>
+                        <button onclick="toggle_visibility()">
+                            <li></li>
+                            <li></li>
+                        </button>
+                    </div>
+                    <div class="devider show-on-scroll"></div>
+                    <div class="member">
+                        <div class="item">
+                            <li>AdemOttoman</li>
+                            <li>Product Manager /Co-founder</li>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="item">
+                            <li>Hylke Hellinga</li>
+                            <li>Software engineer / Co-founder</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="overlay" id="overlay" onclick="toggle_visibility()"></button>
+        </div>
+        </div>
+
+        <!--   <div class="images show-on-scroll">
+        <img src="img/Cannoli-logo.png" alt="product picture8">
+        <img src="img/Cannolipost.png" alt="product picture9">
+      </div>
+      -->
+    </section>
+</body>
+
+
+
+</html>
+
+<script type="text/javascript" src="main.js"></script>
